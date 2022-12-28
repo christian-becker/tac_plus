@@ -6,7 +6,7 @@ WARNING! Please use this container only in an additional secured or testing envi
 ---
 
 ## how to use it
-If you just want to use the container from docker hub - proceed with step 3.  
+If you just want to use the container from docker hub, create the directories and configurations - then proceed with step 2.  
 
 ### 1.) OPTIONAL: BUILD the docker container
 ```
@@ -30,7 +30,7 @@ docker run --name tac_plus -p 49:49 -v $(pwd)/etc-tacacs+:/etc/tacacs+/ -v $(pwd
 ---
 
 ## project links
-[GitHub](https://github.com/christian-becker/tac_plus)
+[GitHub](https://github.com/christian-becker/tac_plus)  
 [Docker Hub](https://hub.docker.com/r/christianbecker/tac_plus/)
 
 

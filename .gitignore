@@ -1,5 +1,6 @@
 # tac_plus accounting files
 accounting/*
 !accounting/.gitkeep
+# tac_plus configuration files
 etc-tacacs+/*
 !etc-tacacs+/original_tac_plus.conf
